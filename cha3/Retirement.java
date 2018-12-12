@@ -31,6 +31,10 @@ public class Retirement{
 		String con = String.format("You have worked %d year and you have %f",year,balance);
 		System.out.println(con);
 
+		int[] small = {1,2,3,4,5};
+		int[] big = small;
+		big[0] = 100;
+		System.out.println(small[0]);
 
 
 
